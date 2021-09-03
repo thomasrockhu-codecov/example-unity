@@ -4,10 +4,10 @@ on:
   # Replace with your main branch if needed
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   runTests:
